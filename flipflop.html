@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FOC</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="project.html">project</a></li>
+                    <li><a href="concepts.html">concepts</a></li>
+                    <li><a href="databases.html">databases</a></li>
+                    <li><a href="documentation.html">documentation</a></li>
+                    <li><a href="devteam.html">dev team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div id="showcase">
+            <div class="container">
+                <h2>Flip Flop</h2>
+                <img src="000.png" id="ffimg" height="300">
+                <div id="projects">
+                    <div class="row">
+                        <div class="column">
+                <p>Flip Flop input A.</p>
+                <button onclick="document.getElementById('ffimg').src='101.png'">on</button>
+                <button onclick="document.getElementById('ffimg').src='001.png'">off</button>
+                        </div>
+                        <div class="column">
+                <p>Flip Flop input B</p>
+                <button onclick="document.getElementById('ffimg').src='010.png'">on </button>
+                <button onclick="document.getElementById('ffimg').src='000.png'">off</button>
+                    </div>
+                </div>
+                </div>
+                <p>This is a Flip Flop.</p>
+        </div>
+    </section>
+
+    <footer>Copyright 2020</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
